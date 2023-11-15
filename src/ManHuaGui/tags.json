@@ -1,0 +1,133 @@
+[
+    {
+      "id": "area",
+      "label": "地區",
+      "tags": [
+        {"id": "japan", "label": "日本"},
+        {"id": "hongkong", "label": "港臺"},
+        {"id": "other", "label": "其它"},
+        {"id": "europe", "label": "歐美"},
+        {"id": "china", "label": "內地"},
+        {"id": "korea", "label": "韓國"}
+      ]
+    },
+    {
+      "id": "genre",
+      "label": "劇情",
+      "tags": [
+        {"id": "rexue", "label": "熱血"},
+        {"id": "maoxian", "label": "冒險"},
+        {"id": "mohuan", "label": "魔幻"},
+        {"id": "shengui", "label": "神鬼"},
+        {"id": "gaoxiao", "label": "搞笑"},
+        {"id": "mengxi", "label": "萌系"},
+        {"id": "aiqing", "label": "愛情"},
+        {"id": "kehuan", "label": "科幻"},
+        {"id": "mofa", "label": "魔法"},
+        {"id": "gedou", "label": "格鬥"},
+        {"id": "wuxia", "label": "武俠"},
+        {"id": "jizhan", "label": "機戰"},
+        {"id": "zhanzheng", "label": "戰爭"},
+        {"id": "jingji", "label": "競技"},
+        {"id": "tiyu", "label": "體育"},
+        {"id": "xiaoyuan", "label": "校園"},
+        {"id": "shenghuo", "label": "生活"},
+        {"id": "lizhi", "label": "勵志"},
+        {"id": "lishi", "label": "歷史"},
+        {"id": "weiniang", "label": "偽娘"},
+        {"id": "zhainan", "label": "宅男"},
+        {"id": "funv", "label": "腐女"},
+        {"id": "danmei", "label": "耽美"},
+        {"id": "baihe", "label": "百合"},
+        {"id": "hougong", "label": "後宮"},
+        {"id": "zhiyu", "label": "治癒"},
+        {"id": "meishi", "label": "美食"},
+        {"id": "tuili", "label": "推理"},
+        {"id": "xuanyi", "label": "懸疑"},
+        {"id": "kongbu", "label": "恐怖"},
+        {"id": "sige", "label": "四格"},
+        {"id": "zhichang", "label": "職場"},
+        {"id": "zhentan", "label": "偵探"},
+        {"id": "shehui", "label": "社會"},
+        {"id": "yinyue", "label": "音樂"},
+        {"id": "wudao", "label": "舞蹈"},
+        {"id": "zazhi", "label": "雜誌"},
+        {"id": "heidao", "label": "黑道"}
+      ]
+    },
+    {
+      "id": "age",
+      "label": "受眾",
+      "tags": [
+        {"id": "shaonv", "label": "少女"},
+        {"id": "shaonian", "label": "少年"},
+        {"id": "qingnian", "label": "青年"},
+        {"id": "ertong", "label": "兒童"},
+        {"id": "tongyong", "label": "通用"}
+      ]
+    },
+    {
+      "id": "year",
+      "label": "年份",
+      "tags": [
+        {"id": "2021", "label": "2021年"},
+        {"id": "2020", "label": "2020年"},
+        {"id": "2019", "label": "2019年"},
+        {"id": "2018", "label": "2018年"},
+        {"id": "2017", "label": "2017年"},
+        {"id": "2016", "label": "2016年"},
+        {"id": "2015", "label": "2015年"},
+        {"id": "2014", "label": "2014年"},
+        {"id": "2013", "label": "2013年"},
+        {"id": "2012", "label": "2012年"},
+        {"id": "2011", "label": "2011年"},
+        {"id": "2010", "label": "2010年"},
+        {"id": "200x", "label": "00年代"},
+        {"id": "199x", "label": "90年代"},
+        {"id": "198x", "label": "80年代"},
+        {"id": "197x", "label": "更早"}
+      ]
+    },
+    {
+      "id": "letter",
+      "label": "字母",
+      "tags": [
+        {"id": "a", "label": "A"},
+        {"id": "b", "label": "B"},
+        {"id": "c", "label": "C"},
+        {"id": "d", "label": "D"},
+        {"id": "e", "label": "E"},
+        {"id": "f", "label": "F"},
+        {"id": "g", "label": "G"},
+        {"id": "h", "label": "H"},
+        {"id": "i", "label": "I"},
+        {"id": "j", "label": "J"},
+        {"id": "k", "label": "K"},
+        {"id": "l", "label": "L"},
+        {"id": "m", "label": "M"},
+        {"id": "n", "label": "N"},
+        {"id": "o", "label": "O"},
+        {"id": "p", "label": "P"},
+        {"id": "q", "label": "Q"},
+        {"id": "r", "label": "R"},
+        {"id": "s", "label": "S"},
+        {"id": "t", "label": "T"},
+        {"id": "u", "label": "U"},
+        {"id": "v", "label": "V"},
+        {"id": "w", "label": "W"},
+        {"id": "x", "label": "X"},
+        {"id": "y", "label": "Y"},
+        {"id": "z", "label": "Z"},
+        {"id": "0-9", "label": "0-9"}
+      ]
+    },
+    {
+      "id": "status",
+      "label": "進度",
+      "tags": [
+        {"id": "lianzai", "label": "連載"},
+        {"id": "wanjie", "label": "完結"}
+      ]
+    }
+  ]
+  

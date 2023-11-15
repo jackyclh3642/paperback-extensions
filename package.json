@@ -1,24 +1,28 @@
 {
-  "name": "kittens-extensions",
-  "version": "0.0.0",
-  "repositoryName": "Kitten's Extensions (0.8)",
-  "description": "Kitten's extensions for 0.8!",
+  "name": "jacky-extensions",
+  "version": "0.8.0",
+  "repositoryName": "Jacky's Extension (0.8)",
+  "description": "A Paperback extensions repository",
   "main": "index.js",
   "scripts": {
     "bundle": "npx paperback bundle",
     "serve": "npx paperback serve",
     "test": "npx paperback test",
-    "nodemon": "nodemon"
+    "nodemon": "nodemon --watch src --ext ts --exec npm run serve ",
+    "deploy": "npx gh-pages -d bundles"
   },
   "author": "ifacodes",
   "license": "GPL-3.0-or-later",
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.1",
     "@types/cheerio": "^0.22.21",
+    "@types/opencc-js": "^1.0.3",
     "@typescript-eslint/eslint-plugin": "^5.1.0",
     "@typescript-eslint/parser": "^5.57.1",
     "eslint": "^7.27.0",
     "eslint-plugin-modules-newline": "^0.0.6",
+    "gh-pages": "^6.0.0",
+    "nodemon": "^2.0.22",
     "typescript": "^4.9.5"
   },
   "dependencies": {
@@ -26,7 +30,7 @@
     "@paperback/types": "^0.8.0-alpha.47",
     "cheerio": "^1.0.0-rc.12",
     "entities": "^4.4.0",
-    "nodemon": "^2.0.22",
+    "opencc-js": "^1.0.5",
     "ts-node": "^10.2.1"
   }
 }
