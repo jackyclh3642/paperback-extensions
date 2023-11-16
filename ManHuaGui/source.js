@@ -1917,7 +1917,6 @@ class ManHuaGui {
             title: "人氣最旺",
             containsMoreItems: true,
             type: types_1.HomeSectionType.singleRowNormal,
-            items: (0, ManHuaGuiParser_1.parseHomeSections)(await this.getResponse(popularRequest))
         });
         sectionCallback(popularSection);
         const latestSection = App.createHomeSection({
